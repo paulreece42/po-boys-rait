@@ -20,7 +20,7 @@ You'll need: zfec, mbuffer, tar, zstd
 ADDME
 ## How it works
 
-Adjust your configs to sane values
+Adjust your configs to "sane" values, remember that tapes get best performance with big long writes, and each chunk stops it. So 100GB chunks or so seems reasonable, but balance this with your /tmp dir size
 
 Setup some crons to do some things, then run po_boys_rait.sh on the directory you want to archive
 
